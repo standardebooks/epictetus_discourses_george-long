@@ -29,13 +29,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Discourses</dc:title>
 		<meta property="file-as" refines="#title">Discourses</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Ethics, Ancient</dc:subject>
+		<dc:subject id="subject-2">Conduct of Life--Early works to 1800</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85045098</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="term" refines="#subject-2">sh2002009926</meta>
+		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
 			LONG_DESCRIPTION
@@ -58,24 +58,26 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="compiler-1">Arrian</dc:contributor>
-		<meta property="file-as" refines="#compiler-1">Arrian</meta>
-		<meta property="se:url.homepage" refines="#compiler-1">https://en.wikipedia.org/wiki/Arrian</meta>
-		<meta property="role" refines="#compiler-1" scheme="marc:relators">com</meta>
-		<meta property="role" refines="#compiler-1" scheme="marc:relators">edc</meta>
-		<meta property="role" refines="#compiler-1" scheme="marc:relators">wst</meta>
-		<dc:contributor id="translator-1">NAME</dc:contributor>
-		<meta property="file-as" refines="#translator-1">NAME</meta>
-		<meta property="se:url.homepage" refines="#translator-1">URL</meta>
-		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
-		<meta property="role" refines="#translator-1" scheme="marc:relators">wac</meta>
-		<dc:contributor id="transcriber-1">NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">NAME</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="compiler">Arrian</dc:contributor>
+		<meta property="file-as" refines="#compiler">Arrian</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#compiler">https://en.wikipedia.org/wiki/Arrian</meta>
+    <meta property="se:url.authority.nacoaf" refines="#compiler">http://id.loc.gov/authorities/names/n79023201</meta>
+		<meta property="role" refines="#compiler" scheme="marc:relators">com</meta>
+		<meta property="role" refines="#compiler" scheme="marc:relators">edc</meta>
+		<meta property="role" refines="#compiler" scheme="marc:relators">wst</meta>
+		<dc:contributor id="tranlator">George Long</dc:contributor>
+		<meta property="file-as" refines="#tranlator">Long, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#tranlator">https://en.wikipedia.org/wiki/George_Long_(scholar)</meta>
+    <meta property="se:url.authority.nacoaf" refines="#tranlator">http://id.loc.gov/authorities/names/n82116302</meta>
+		<meta property="role" refines="#tranlator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#tranlator" scheme="marc:relators">wac</meta>
+		<dc:contributor id="transcriber">Perseus Project, Tufts University</dc:contributor>
+		<meta property="file-as" refines="#transcriber">Perseus Project</meta>
+		<meta property="se:url.homepage" refines="#transcriber">http://www.perseus.tufts.edu/hopper/</meta>
+		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">David M. Gross</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Gross, David M.</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://sniggle.net/TPL/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -87,17 +89,27 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
-		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
-		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-4.xhtml" id="book-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="book-1.xhtml"/>
+		<itemref idref="book-2.xhtml"/>
+		<itemref idref="book-3.xhtml"/>
+		<itemref idref="book-4.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
