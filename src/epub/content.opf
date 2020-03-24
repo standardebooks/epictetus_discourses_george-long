@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/epictetus/discourses</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/epictetus/discourses/george-long</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -37,19 +37,18 @@
 		<meta property="term" refines="#subject-2">sh2002009926</meta>
 		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
+		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
-		]]></meta>
+		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Discourses</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/epictetus_discourses</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/epictetus_discourses_george-long</meta>
 		<dc:creator id="author">Epictetus</dc:creator>
 		<meta property="file-as" refines="#author">Epictetus</meta>
-		<meta property="se:name.person.full-name" refines="#author">Epictetus</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Epictetus</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -61,16 +60,18 @@
 		<dc:contributor id="compiler">Arrian</dc:contributor>
 		<meta property="file-as" refines="#compiler">Arrian</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#compiler">https://en.wikipedia.org/wiki/Arrian</meta>
-    <meta property="se:url.authority.nacoaf" refines="#compiler">http://id.loc.gov/authorities/names/n79023201</meta>
+		<meta property="se:url.authority.nacoaf" refines="#compiler">http://id.loc.gov/authorities/names/n79023201</meta>
 		<meta property="role" refines="#compiler" scheme="marc:relators">com</meta>
 		<meta property="role" refines="#compiler" scheme="marc:relators">edc</meta>
 		<meta property="role" refines="#compiler" scheme="marc:relators">wst</meta>
+		<meta property="role" refines="#compiler" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="tranlator">George Long</dc:contributor>
 		<meta property="file-as" refines="#tranlator">Long, George</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#tranlator">https://en.wikipedia.org/wiki/George_Long_(scholar)</meta>
-    <meta property="se:url.authority.nacoaf" refines="#tranlator">http://id.loc.gov/authorities/names/n82116302</meta>
+		<meta property="se:url.authority.nacoaf" refines="#tranlator">http://id.loc.gov/authorities/names/n82116302</meta>
 		<meta property="role" refines="#tranlator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#tranlator" scheme="marc:relators">wac</meta>
+		<meta property="role" refines="#tranlator" scheme="marc:relators">ann</meta>
 		<dc:contributor id="transcriber">Perseus Project, Tufts University</dc:contributor>
 		<meta property="file-as" refines="#transcriber">Perseus Project</meta>
 		<meta property="se:url.homepage" refines="#transcriber">http://www.perseus.tufts.edu/hopper/</meta>
