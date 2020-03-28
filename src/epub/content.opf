@@ -42,7 +42,7 @@
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236</dc:source>
-		<meta property="se:production-notes">(1) I made a lot of changes to the endnotes: expanding abbreviations and abbreviated names, cross-linking, etc. (2) In the main text, Epictetus uses imaginary dialog a lot (arguing with an imaginary opponent); this can be difficult to read in Long's rendering, which just runs the sentences all together without showing who's talking. I've occasionally added quotation marks to try to make this clearer. (3) I've Americanized the English.</meta>
+		<meta property="se:production-notes">(1) I made a lot of changes to the endnotes: expanding abbreviations and abbreviated names, cross-linking, etc. (2) In the main text, Epictetus uses imaginary dialog a lot (arguing with an imaginary opponent); this can be difficult to read in Long's rendering, which just runs the sentences all together without showing who's talking. I've occasionally added quotation marks to try to make this clearer. (3) I've Americanized and modernized the English. (4) The punctuation in the original is often an obstacle to understanding, and I've altered this when I thought it would help.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Discourses</meta>

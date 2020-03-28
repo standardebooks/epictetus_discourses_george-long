@@ -65,3 +65,7 @@ p span.i2{
 abbr.era{
 	font-variant: all-small-caps;
 }
+
+[epub|type~="z3998:roman"]{
+	hyphens: none;
+}
