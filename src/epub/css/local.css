@@ -69,3 +69,46 @@ abbr.era{
 [epub|type~="z3998:roman"]{
 	hyphens: none;
 }
+
+p + table[epub|type~="z3998:drama"]{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:drama"]{
+	border-collapse: collapse;
+}
+
+[epub|type~="z3998:drama"] tr:first-child td{
+	padding-top: 0;
+}
+
+[epub|type~="z3998:drama"] tr:last-child td{
+	padding-bottom: 0;
+}
+
+[epub|type~="z3998:drama"] td{
+	vertical-align: top;
+	padding: .5em;
+}
+
+[epub|type~="z3998:drama"] td:last-child{
+	padding-right: 0;
+}
+
+[epub|type~="z3998:drama"] td:first-child{
+	padding-left: 0;
+}
+
+[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	text-align: right;
+	width: 1em;
+}
+
+[epub|type~="z3998:drama"] td p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+}
