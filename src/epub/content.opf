@@ -36,21 +36,21 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2002009926</meta>
 		<meta property="se:subject">Philosophy</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Epictetus instructs his students how to live the life of a Stoic.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In this series of lectures collected by his student Arrian, the philosopher Epictetus explains how to gain peace-of-mind by practicing Stoicism. There is no point in getting upset about things that are outside of your control. This only leads to pointless distress. Instead, let such things be however they are, and focus your effort on the things that are in your control: your own attitudes and priorities. This way, you can never be thrown off balance, and tranquility is yours for the taking.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236</dc:source>
-		<meta property="se:production-notes">(1) I made a lot of changes to the endnotes: expanding abbreviations and abbreviated names, cross-linking, etc. (2) In the main text, Epictetus uses imaginary dialog a lot (arguing with an imaginary opponent); this can be difficult to read in Long's rendering, which just runs the sentences all together without showing who's talking. I've occasionally added quotation marks to try to make this clearer. (3) I've Americanized and modernized the English. (4) The punctuation in the original is often an obstacle to understanding, and I've altered this when I thought it would help. (5) I added an editorial note to endnote #528.</meta>
+		<meta property="se:production-notes">(1) I made a lot of changes to the endnotes: expanding abbreviations and abbreviated names, cross-linking, etc. (2) In the main text, Epictetus uses imaginary dialog a lot (arguing with an imaginary opponent); this can be difficult to read in Long's rendering, which just runs the sentences all together without showing who's talking. I've frequently added quotation marks to try to make this clearer. (3) I've Americanized and modernized the English. (4) The punctuation in the original is often an obstacle to understanding, and I've altered this when I thought it would help. (5) I added an editorial note to endnote #528. (6) In two cases I added empty span elements when a new paragraph followed a blockquote (that is, the blockquote did not interrupt the paragraph in the middle) so that the new paragraph would get indented properly.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Discourses</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/epictetus_discourses_george-long</meta>
 		<dc:creator id="author">Epictetus</dc:creator>
 		<meta property="file-as" refines="#author">Epictetus</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Epictetus</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="alternate-script" refines="#author">Ἐπίκτητος</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50082929</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
