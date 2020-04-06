@@ -38,7 +38,9 @@
 		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">Epictetus instructs his students how to live the life of a Stoic.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In this series of lectures collected by his student Arrian, the philosopher Epictetus explains how to gain peace-of-mind by practicing Stoicism. There is no point in getting upset about things that are outside of your control. This only leads to pointless distress. Instead, let such things be however they are, and focus your effort on the things that are in your control: your own attitudes and priorities. This way, you can never be thrown off balance, and tranquility is yours for the taking.&lt;/p&gt;
+			&lt;p&gt;Raised a slave in Nero’s court, Epictetus would become one of the most influential philosophers in the Stoic tradition. While exiled in Greece by an emperor who considered philosophers a threat, Epictetus founded a school of philosophy at Nicopolis. His student Arrian of Nicomedia took careful notes of his sometimes cantankerous lectures, the surviving examples of which are now known as the <i>Discourses of Epictetus</i>.&lt;/p&gt;
+			&lt;p&gt;In these discourses, Epictetus explains how to gain peace-of-mind by only willing that which is within the domain of your will. There is no point in getting upset about things that are outside of your control; that only leads to distress. Instead, let such things be however they are, and focus your effort on the things that are in your control: your own attitudes and priorities. This way, you can never be thrown off balance, and tranquility is yours for the taking.&lt;/p&gt;
+			&lt;p&gt;The lessons in the <i>Discourses of Epictetus</i>, along with his <i>Enchiridion</i>, have continued to attract new adherents to Stoic philosophy down to the present day.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236</dc:source>
