@@ -105,6 +105,10 @@ p span.i2{
 	padding-left: 3em;
 }
 
+p.new{
+	text-indent: 1em;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
