@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/epictetus/discourses/george-long</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-04-07T18:49:07Z</dc:date>
+		<meta property="dcterms:modified">2020-04-07T18:49:07Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -45,8 +45,8 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236</dc:source>
 		<meta property="se:production-notes">(1) I made a lot of changes to the endnotes: expanding abbreviations and abbreviated names, cross-linking, etc. (2) In the main text, Epictetus uses imaginary dialog a lot (arguing with an imaginary opponent); this can be difficult to read in Long's rendering, which just runs the sentences all together without showing who's talking. I've frequently added quotation marks to try to make this clearer. (3) I've Americanized and modernized the English. (4) The punctuation in the original is often an obstacle to understanding, and I've altered this when I thought it would help. (5) I added an editorial note to endnote #528. (6) In two cases I added empty span elements when a new paragraph followed a blockquote (that is, the blockquote did not interrupt the paragraph in the middle) so that the new paragraph would get indented properly.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">121610</meta>
+		<meta property="se:reading-ease.flesch">68.2</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Discourses</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/epictetus_discourses_george-long</meta>
 		<dc:creator id="author">Epictetus</dc:creator>
@@ -89,6 +89,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
