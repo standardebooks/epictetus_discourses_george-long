@@ -60,10 +60,6 @@ body [xml|lang]{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:poem"] + p{
 	text-indent: 0;
 }
@@ -85,10 +81,6 @@ body [xml|lang]{
 
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] + p{
