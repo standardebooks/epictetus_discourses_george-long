@@ -102,8 +102,3 @@ p span.i2{
 p.new{
 	text-indent: 1em;
 }
-
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
