@@ -90,3 +90,8 @@ p span.i2{
 	text-indent: -1em;
 	padding-left: 3em;
 }
+
+body cite > [xml|lang],
+body [xml|lang] > [xml|lang]{
+	font-style: normal;
+}
