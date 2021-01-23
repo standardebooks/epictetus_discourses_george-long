@@ -10,8 +10,10 @@ body [xml|lang]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:drama"]{
+table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
+	margin: 1em auto;
+	width: 100%;
 }
 
 [epub|type~="z3998:drama"] tr:first-child td{
