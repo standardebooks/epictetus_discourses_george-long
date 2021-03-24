@@ -8,9 +8,9 @@
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -65,18 +65,18 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#compiler">https://en.wikipedia.org/wiki/Arrian</meta>
 		<meta property="se:url.authority.nacoaf" refines="#compiler">http://id.loc.gov/authorities/names/n79023201</meta>
 		<meta property="role" refines="#compiler" scheme="marc:relators">com</meta>
-		<meta property="role" refines="#compiler" scheme="marc:relators">edc</meta>
-		<meta property="role" refines="#compiler" scheme="marc:relators">wst</meta>
-		<meta property="role" refines="#compiler" scheme="marc:relators">wpr</meta>
+		<meta property="se:role" refines="#compiler" scheme="marc:relators">edc</meta>
+		<meta property="se:role" refines="#compiler" scheme="marc:relators">wst</meta>
+		<meta property="se:role" refines="#compiler" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="tranlator">George Long</dc:contributor>
 		<meta property="file-as" refines="#tranlator">Long, George</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#tranlator">https://en.wikipedia.org/wiki/George_Long_(scholar)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#tranlator">http://id.loc.gov/authorities/names/n82116302</meta>
 		<meta property="role" refines="#tranlator" scheme="marc:relators">trl</meta>
-		<meta property="role" refines="#tranlator" scheme="marc:relators">wac</meta>
-		<meta property="role" refines="#tranlator" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#tranlator" scheme="marc:relators">aui</meta>
-		<meta property="role" refines="#tranlator" scheme="marc:relators">win</meta>
+		<meta property="se:role" refines="#tranlator" scheme="marc:relators">wac</meta>
+		<meta property="se:role" refines="#tranlator" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#tranlator" scheme="marc:relators">aui</meta>
+		<meta property="se:role" refines="#tranlator" scheme="marc:relators">win</meta>
 		<dc:contributor id="transcriber">Perseus Project, Tufts University</dc:contributor>
 		<meta property="file-as" refines="#transcriber">Perseus Project</meta>
 		<meta property="se:url.homepage" refines="#transcriber">http://www.perseus.tufts.edu/hopper/</meta>
@@ -85,11 +85,11 @@
 		<meta property="file-as" refines="#producer-1">Gross, David M.</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://sniggle.net/TPL/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
