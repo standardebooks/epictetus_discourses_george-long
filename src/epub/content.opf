@@ -47,7 +47,7 @@
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236</dc:source>
 		<dc:source>https://books.google.com/books?id=YaxrDla061QC</dc:source>
 		<meta property="se:production-notes">(1) I made a lot of changes to the endnotes: expanding abbreviations and abbreviated names, cross-linking, etc. (2) In the main text, Epictetus uses imaginary dialog a lot (arguing with an imaginary opponent); this can be difficult to read in Long's rendering, which just runs the sentences all together without showing who's talking. I've frequently added quotation marks to try to make this clearer. (3) I've Americanized and modernized the English. (4) The punctuation in the original is often an obstacle to understanding, and I've altered this when I thought it would help. (5) I added an editorial note to endnote #528. (6) In two cases I added empty span elements when a new paragraph followed a blockquote (that is, the blockquote did not interrupt the paragraph in the middle) so that the new paragraph would get indented properly.</meta>
-		<meta property="se:word-count">121600</meta>
+		<meta property="se:word-count">121598</meta>
 		<meta property="se:reading-ease.flesch">68.1</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Discourses_of_Epictetus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/epictetus_discourses_george-long</meta>
