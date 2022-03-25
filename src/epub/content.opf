@@ -67,15 +67,15 @@
 		<meta property="se:role" refines="#compiler" scheme="marc:relators">edc</meta>
 		<meta property="se:role" refines="#compiler" scheme="marc:relators">wst</meta>
 		<meta property="se:role" refines="#compiler" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="tranlator">George Long</dc:contributor>
-		<meta property="file-as" refines="#tranlator">Long, George</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#tranlator">https://en.wikipedia.org/wiki/George_Long_(scholar)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#tranlator">http://id.loc.gov/authorities/names/n82116302</meta>
-		<meta property="role" refines="#tranlator" scheme="marc:relators">trl</meta>
-		<meta property="se:role" refines="#tranlator" scheme="marc:relators">wac</meta>
-		<meta property="se:role" refines="#tranlator" scheme="marc:relators">ann</meta>
-		<meta property="se:role" refines="#tranlator" scheme="marc:relators">aui</meta>
-		<meta property="se:role" refines="#tranlator" scheme="marc:relators">win</meta>
+		<dc:contributor id="translator">George Long</dc:contributor>
+		<meta property="file-as" refines="#translator">Long, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/George_Long_(scholar)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n82116302</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">wac</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">aui</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">win</meta>
 		<dc:contributor id="transcriber">Perseus Project, Tufts University</dc:contributor>
 		<meta property="file-as" refines="#transcriber">Perseus Project</meta>
 		<meta property="se:url.homepage" refines="#transcriber">http://www.perseus.tufts.edu/hopper/</meta>
