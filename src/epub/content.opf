@@ -35,6 +35,8 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2002009926</meta>
 		<meta property="se:subject">Philosophy</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">Epictetus instructs his students how to live the life of a Stoic.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Raised a slave in Nero’s court, &lt;a href="https://standardebooks.org/ebooks/epictetus"&gt;Epictetus&lt;/a&gt; would become one of the most influential philosophers in the Stoic tradition. While exiled in Greece by an emperor who considered philosophers a threat, Epictetus founded a school of philosophy at Nicopolis. His student Arrian of Nicomedia took careful notes of his sometimes cantankerous lectures, the surviving examples of which are now known as the &lt;i&gt;Discourses of Epictetus&lt;/i&gt;.&lt;/p&gt;
