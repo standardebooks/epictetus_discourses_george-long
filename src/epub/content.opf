@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/epictetus/discourses/george-long</dc:identifier>
 		<dc:date>2020-04-07T18:49:07Z</dc:date>
@@ -39,12 +39,12 @@
 		<meta property="schema:genre">Philosophy</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:description id="description">Epictetus instructs his students how to live the life of a Stoic.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Epictetus instructs his students how to live the life of a Stoic.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Raised a slave in Nero’s court, &lt;a href="https://standardebooks.org/ebooks/epictetus"&gt;Epictetus&lt;/a&gt; would become one of the most influential philosophers in the Stoic tradition. While exiled in Greece by an emperor who considered philosophers a threat, Epictetus founded a school of philosophy at Nicopolis. His student Arrian of Nicomedia took careful notes of his sometimes cantankerous lectures, the surviving examples of which are now known as the &lt;i&gt;Discourses of Epictetus&lt;/i&gt;.&lt;/p&gt;
 			&lt;p&gt;In these discourses, Epictetus explains how to gain peace-of-mind by only willing that which is within the domain of your will. There is no point in getting upset about things that are outside of your control; that only leads to distress. Instead, let such things be however they are, and focus your effort on the things that are in your control: your own attitudes and priorities. This way, you can never be thrown off balance, and tranquility is yours for the taking.&lt;/p&gt;
 			&lt;p&gt;The lessons in the &lt;i&gt;Discourses of Epictetus&lt;/i&gt;, along with his &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/epictetus/short-works/george-long"&gt;Enchiridion&lt;/a&gt;&lt;/i&gt;, have continued to attract new adherents to Stoic philosophy down to the present day.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236</dc:source>
 		<dc:source>https://books.google.com/books?id=YaxrDla061QC</dc:source>
