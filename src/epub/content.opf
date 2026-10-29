@@ -57,6 +57,7 @@
 		<dc:creator id="author">Epictetus</dc:creator>
 		<meta property="file-as" refines="#author">Epictetus</meta>
 		<meta property="alternate-script" refines="#author">Ἐπίκτητος</meta>
+		<link href="https://en.wikipedia.org/wiki/Epictetus" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50082929.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">William Blake Richmond</dc:contributor>
@@ -87,7 +88,9 @@
 		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David M. Gross</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Gross, David M.</meta>
+		<meta property="schema:alternateName" refines="#producer-1">David Michael Gross</meta>
 		<link href="https://sniggle.net/TPL/" refines="#producer-1" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/no2009011220.html" refines="#producer-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
